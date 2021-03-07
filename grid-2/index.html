@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        outline: 1px solid tomato;
+      }
+      /* CONTAINER */
+      .container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        outline: 1px solid teal;
+
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        /* margin-right: -30px;
+        margin-bottom: -30px; */
+      }
+      .item {
+        flex-basis: calc((100% - 60px) / 3);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        outline: 1px solid black;
+      }
+
+      .item:nth-child(3n) {
+        margin-right: 0;
+      }
+      .item:nth-last-child(-n + 3) {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box container">
+      <ul class="list">
+        <li class="item">
+          <img src="../../images/about-us/img-1.jpg" alt="" class="img" />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          voluptas aut magni laboriosam tempora porro quaerat nesciunt ducimus
+          quidem sequi voluptatum, perferendis accusantium nulla architecto
+          illum inventore obcaecati rem quod?
+        </li>
+        <li class="item">
+          <img src="../../images/about-us/img-2.jpg" alt="" class="img" />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          voluptas aut magni laboriosam tempora porro quaerat nesciunt ducimus
+          quidem sequi voluptatum, perferendis accusantium nulla architecto
+          illum inventore obcaecati rem quod?
+        </li>
+        <li class="item">
+          <img
+            src="../../../goit-markup-hw-04/images/hero.jpg"
+            alt=""
+            class="img"
+          />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          voluptas aut magni laboriosam tempora porro quaerat nesciunt ducimus
+          quidem sequi voluptatum, perferendis accusantium nulla architecto
+          illum inventore obcaecati rem quod?
+        </li>
+        <li class="item">
+          <img src="../../images/gallery/img-1.jpg" alt="" class="img" />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          voluptas aut magni laboriosam tempora porro quaerat nesciunt ducimus
+          quidem sequi voluptatum, perferendis accusantium nulla architecto
+          illum inventore obcaecati rem quod?
+        </li>
+        <li class="item">
+          <img src="../../images/gallery/img-2.jpg" alt="" class="img" />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          voluptas aut magni laboriosam tempora porro quaerat nesciunt ducimus
+          quidem sequi voluptatum, perferendis accusantium nulla architecto
+          illum inventore obcaecati rem quod?
+        </li>
+        <li class="item">
+          <img src="../../images/about-us/img-1.jpg" alt="" class="img" />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          voluptas aut magni laboriosam tempora porro quaerat nesciunt ducimus
+          quidem sequi voluptatum, perferendis accusantium nulla architecto
+          illum inventore obcaecati rem quod?
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
